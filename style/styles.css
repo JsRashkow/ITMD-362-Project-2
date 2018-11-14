@@ -1,5 +1,6 @@
 body {
   background-color: #00004d;
+  color: white;
 }
 
 /* Header Styles */
@@ -27,12 +28,10 @@ header {
 }
 
 .navbar a img {
-  float: right;
   display: block;
   color: #f2f2f2;
   height: 25px;
   width: 25px;
-  text-decoration: none;
 }
 
 .navbar a:hover {
