@@ -1,8 +1,16 @@
 body {
-  background-color: white;
+  background-color: #00004d;
 }
 
 /* Header Styles */
+header {
+  padding: 5px 5px 5px 5px;
+  margin: 20px auto;
+  width: 75%;
+  background-color: white;
+  height: 141px;
+}
+
 header img {
   margin: 0 auto;
   float: left;
@@ -13,56 +21,30 @@ header img {
 header h1 {
   position: relative;
   margin: 0 auto;
-  text-align: center;
+  padding: 25px 0px 0px 0px;
 }
 
 /*Navigation Styles*/
-#nav ul {
-  background: gray;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+.navbar {
   overflow: hidden;
-  width: 900px;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
-#nav ul li {
-  float:left;
-  font-size: 30px;
-}
-
-#nav ul li a {
-  color: white;
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  padding-left: 86px;
-  padding-right: 86px;
 }
 
-#nav ul li a:last-of-type {
-  padding-right: 86px;
-}
-
-#nav ul li:hover {
-  background: black;
-}
-
-#nav ul li a:hover {
-  background-color: black;
-}
-
-#nav li {
-  border-right: 1px solid #bbb;
-}
-
-#nav li:last-child {
-  border-right: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: black;
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
