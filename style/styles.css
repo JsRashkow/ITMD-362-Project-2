@@ -3,26 +3,6 @@ body {
 }
 
 /* Header Styles */
-header {
-  padding: 5px 5px 5px 5px;
-  margin: 20px auto;
-  width: 75%;
-  background-color: white;
-  height: 141px;
-}
-
-header img {
-  margin: 0 auto;
-  float: left;
-  width: 135px;
-  height: 141px;
-}
-
-header h1 {
-  position: relative;
-  margin: 0 auto;
-  padding: 25px 0px 0px 0px;
-}
 
 /*Navigation Styles*/
 .navbar {
