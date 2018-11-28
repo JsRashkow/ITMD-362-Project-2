@@ -42,7 +42,7 @@ header {
 
 /*Footer Styles*/
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -65,7 +65,7 @@ footer a {
   margin: 50px auto 0px auto;
 }
 
-.intro h3 {
+.intro h3, .directors h3 {
   font-weight: bold;
   font-size: 20px;
 }
@@ -79,4 +79,9 @@ footer a {
   margin-top: 10px;
   text-align: center;
   list-style-type: none;
+}
+
+.constitution {
+  width: 50%;
+  margin: 50px auto 0px auto;
 }
