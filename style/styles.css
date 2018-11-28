@@ -95,3 +95,32 @@ footer a {
   font-size: 20px;
   text-align: center;
 }
+
+.event {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: center;
+}
+
+.event img {
+  border-radius: 10px;
+}
+
+.signup {
+  width: 15%;
+  background-color: white;
+  margin: 10px auto;
+  line-height: 2em;
+  border-radius: 5px;
+  color: black;
+}
+
+.signup a {
+  text-decoration: none;
+  color: black;
+}
+
+.signup:hover, .signup a:hover {
+  background: #595959;
+  color: white;
+}
