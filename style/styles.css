@@ -62,10 +62,15 @@ footer a {
 /* Section Styles */
 .intro {
   width: 50%;
-  margin: 0 auto;
+  margin: 50px auto 0px auto;
 }
 
 .intro h3 {
   font-weight: bold;
   font-size: 20px;
+}
+
+.directors {
+  width: 50%;
+  margin: 50px auto 0px auto;
 }
