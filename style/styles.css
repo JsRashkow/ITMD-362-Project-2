@@ -35,7 +35,7 @@ header {
   width: 25px;
 }
 
-.navbar a:hover {
+.navbar a:hover, footer a:hover {
   background: #595959;
   color: white;
 }
@@ -77,7 +77,7 @@ footer a {
 
 .directors li {
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
 }
 
@@ -104,8 +104,14 @@ footer a {
 
 .event img {
   border-radius: 10px;
+  border-color: white;
+  border: 2px solid;
 }
 
+.eventinfo{
+  text-align: left;
+}
+/* Signup button Styles */
 .signup {
   width: 15%;
   background-color: white;
@@ -123,4 +129,92 @@ footer a {
 .signup:hover, .signup a:hover {
   background: #595959;
   color: white;
+}
+
+/* form styles */
+.signupevent {
+  margin-bottom: 100px;
+}
+
+.signUpForm {
+  display: block;
+  padding: 2%;
+  margin: auto;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: black;
+  width: 25%;
+  overflow: hidden;
+}
+
+input[type=text],input[type=tel],input[type=email],input[type=date], input[submit], textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #6495ED;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #6495ED;
+}
+
+textarea {
+  height: 150px;
+}
+
+.submit {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+	
+  .event {
+    width: 75%;
+	margin: 0 auto 50px auto;
+  }
+  
+  .event img {
+    width: 75%;
+  }
+  
+  .navbar {
+    width: 100%;
+  }
+  
+  .navbar a {
+	padding: 5px 5px;
+  }
+	
+  .signUpForm {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .signup {
+	width: 35%;
+  }
+  
+  header {
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .signUpForm {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 100%;
+  }
 }

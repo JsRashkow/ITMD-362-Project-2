@@ -2,19 +2,18 @@
 
 <html lang="en">
   <head>
-    <title>Contact Us</title>
+    <title>Sign-Up for ISUD 2018 World Congress</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" media="screen" href="style/normalize.css" />
 	<link rel="stylesheet" media="screen" href="style/reset.css" />
 	<link rel="stylesheet" media="screen" href="style/styles.css" />
-    <script src="javascript/js.js"></script>
   </head>
   
   <body>
     <header>
 	  <img id="logo" src="images/isud_logo.png" alt="ISUD Logo"/>
-	  <h1>Contact Us</h1>
+	  <h1>Sign-Up for ISUD 2018 World Congress</h1>
     </header>
 	<div class="navbar">
 		<a href="index.html">Home</a>
@@ -25,20 +24,19 @@
 		<a class="socialmedia" href="linkedin.com"><img id="LinkedIn" src="images/linkedin.png" alt="LinkedIn"/></a>
 	</div>
 	<div class="signupevent">
-	  <div class="signupevent">
-	    <form method="get" class='signUpForm' action="#null" autocomplete="on" onsubmit="sendcon()">
-          <div class='custNameInfo'>
-	        <p><label>First Name: <input type="text" name="firstName" required></label></p>
-            <p><label>Last Name: <input type="text" name="lastName" required></label></p>
-          </div>
-          <div class='custContactInfo'>
-	        <p><label>Email: <input type="email" name="email" pattern="^.+@.+$" required></label></p>
-			<p><label>Message: <textarea name="message" required></textarea></label></p>
-          </div>
-          <div class='submit'>
-            <p><input type="submit" value="Submit"></p>
-          </div>
-        </form>		
+	  <form method="get" class='signUpForm' action="#null" autocomplete="on" onsubmit="send()">
+        <div class='custNameInfo'>
+	      <p><label>First Name: <input type="text" name="firstName" required></label></p>
+          <p><label>Last Name: <input type="text" name="lastName" required></label></p>
+        </div>
+        <div class='custContactInfo'>
+	      <p><label>Phone Number: <input type="tel" name="telNum" required></label></p>
+	      <p><label>Email: <input type="email" name="email" pattern="^.+@.+$" required></label></p>
+        </div>
+        <div class='submit'>
+          <p><input type="submit" value="Sign Up"></p>
+        </div>
+      </form>	
 	</div>
 	<footer>
 	  <a href="contact.html">Contact Us</a>
